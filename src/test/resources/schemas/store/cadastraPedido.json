@@ -1,0 +1,30 @@
+{
+  "title": "Schema para 200 Ok no endpoint de Cadastro de Pedido",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "petId": {
+      "type": "number"
+    },
+    "quantity": {
+      "type": "number"
+    },
+    "shipDate": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "complete": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "id",
+    "petId",
+    "quantity",
+    "complete"
+  ]
+}

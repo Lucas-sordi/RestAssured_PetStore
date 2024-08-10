@@ -1,0 +1,20 @@
+{
+  "title": "Schema para 404 Not Found no endpoint de busca de pet por id",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "number"
+    },
+    "type": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "code",
+    "type",
+    "message"
+  ]
+}
